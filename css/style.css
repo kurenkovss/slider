@@ -1,0 +1,55 @@
+#widget{
+	width:600px;
+	height:100px;
+	margin:20px
+}
+#coloredSlider {
+	float:left;
+	clear:left;
+	width:400px;
+	margin:40px;
+}
+#coloredSlider .ui-state-default, .ui-widget-content .ui-state-default {
+	background: none;
+	background-color: #FFF;
+} 
+.form-group{
+  padding:15px;
+  border:2px solid;
+  margin:15px;
+  width:600px;
+}
+.form-group > label{
+ position: absolute;
+ top: 6px;
+ left: 40px;
+ background-color: white;
+}
+.colorButton,.colorButtonBackground {
+	background-color: #cacaca;
+    border: none;
+    color: black;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 6px;
+}
+#box {
+    width:110px;
+    height:100px;
+    float:left;
+    position: relative 
+}
+#box p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	text-align: center;
+}
